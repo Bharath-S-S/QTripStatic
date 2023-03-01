@@ -27,8 +27,8 @@ footer {
   vertical-align: bottom;
   margin-top: 40px;
   text-align: center;
-  /* width: 100%; */
-  /* height: 2.5rem;   */
+  /* width: 100%; 
+  height: 2.5rem; */
 }
 
 .banner {
@@ -77,13 +77,19 @@ footer {
 
   /* TODO: MODULE_LAYOUT */
   /* 1. Set a specific height. */
+  height: 50vh;
+  width: 100vw;
   /* 2. Position and center the image to scale nicely on all screens. */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .hero-subheading {
   font-size: 24px;
   font-weight: 100;
 }
+ 
 .hero-input {
   width: 80%;
   height: 50px;
