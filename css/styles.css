@@ -160,6 +160,12 @@ footer {
   filter: brightness(50%);
 }
 
+@media screen and (max-width: 768px) {
+  .adventure-card img {
+    height: 75%;
+  }
+}
+  
 /* ================================== */
 /* Adventure details page CSS */
 /* ================================== */
@@ -167,16 +173,26 @@ footer {
 .adventure-detail-card {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
-
+  border: 1px solid white;
+  border-radius: 4px;
+  padding: 16px;
 }
 
 .adventure-card-image {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  transition: 0.2s all;
+  border-radius: 2px;
+
 }
 .adventure-card-image:hover {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  filter: brightness(50%);
+
 }
 .experience-content ul li {
   margin-left: 16px;
